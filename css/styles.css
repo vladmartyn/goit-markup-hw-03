@@ -1,0 +1,302 @@
+:root {
+    /* fonts */
+    --main-font:"Roboto";
+    --secondary-font:"Raleway";
+
+    /* text colors */
+    --primary-txt-theme: #212121;
+    --accent-txt-theme: #2196F3;
+    --secondary-txt-theme: #757575;
+    --third-txt-theme: #FFFFFF;
+
+    /* background colors */
+    --main-bg-cl: #FFFFFF;
+    --hero-bg-cl: #2F303A;
+    --team-bg-cl: #F5F4FA;
+    --footer-bg-cl: #2F303A;
+    --button-bg-cl: #188CE8;
+    --button-portfolio-cl: #F5F4FA;
+
+    /* others */
+
+}
+
+body {
+    font-family:var(--main-font), sans-serif;
+    color: var(--primary-txt-theme);
+    background-color: var(--main-bg-cl);
+} 
+ 
+
+/* common style start */
+
+.link {
+    text-decoration: none;
+}
+
+
+.list {
+    list-style: none;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+    color: var(--primary-txt-theme)
+}
+    
+
+.features-txt {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: var(--secondary-txt-theme)
+}
+
+.list-txt {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: var(--secondary-txt-theme);
+}
+
+.name-txt {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: var(--primary-txt-theme);
+}
+
+.adress-txt {
+    font-style: var(--main-font);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    letter-spacing: 0.03em;
+
+    color: var(--third-txt-theme)
+}
+
+/* common style end */
+
+
+
+
+/* Header section */
+
+.header .logo {
+    font-family: var(--secondary-font);
+    line-height: 1.19;
+font-weight: 700;
+font-size: 26px;
+/* identical to box height */
+letter-spacing: 0.03em;
+
+color: var(--accent-txt-theme)
+    
+}
+
+.header-item {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.logo .logo-black {
+    color: var(--primary-txt-theme);
+    font-style: var(--secondary-font);
+}
+
+.header .header-link{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color:var(--primary-txt-theme)
+}
+
+.header-link:hover,
+.header-link:focus {
+    color: var(--accent-txt-theme);
+}
+
+.header-contact{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color:var(--secondary-txt-theme)
+}
+
+.header-contact:hover,
+.header-contact:focus {
+    color: var(--accent-txt-theme);
+}
+
+/* Hero section */
+
+.hero {
+    background-color: var(--hero-bg-cl)
+}
+
+.hero .hero-title {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.5;
+    /* or 136% */
+    letter-spacing: 0.06em;
+    color: var(--third-txt-theme);
+}
+
+.section-button {
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.06em;
+    color: var(--third-txt-theme);
+
+    cursor: pointer;
+}
+
+.btn {
+    background-color: var(--accent-txt-theme);
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: var(--button-bg-cl);
+}
+
+/* ОСОБЕННОСТИ */
+.features {
+
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+
+/* Team section */
+
+.team {
+    background-color: var(--team-bg-cl);
+}
+
+.card {
+    width: 270px;
+    height: 368px;
+    left: 215px;
+    top: 1635px;
+    
+    background: #FFFFFF;
+    /* material shadow v1 */
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+/* Footer */
+
+.footer {
+    font-style: var(--secondary-font);
+   background-color: var(--footer-bg-cl);
+}
+
+.footer-contact {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-contact:hover,
+.footer-contact:focus{
+    color: var(--button-bg-cl);
+}
+
+
+.footer .logo {
+    font-family: var(--secondary-font);
+}
+
+.logo {
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+/* identical to box height */
+letter-spacing: 0.03em;
+
+color: #2196F3;
+}
+
+.logo-white {
+    color: var(--third-txt-theme);
+}
+
+
+/*!!! PORTFOLIO !!! */
+/* MAIN CONTENT */
+
+.btn-portfolio {
+    font-family: var(--main-font);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    /* identical to box height, or 162% */
+    text-align: center;
+    letter-spacing: 0.03em;
+    color:var(--primary-txt-theme);
+    background-color:var(--button-portfolio-cl)
+
+}
+
+.btn-portfolio:hover,
+.btn-portfolio:focus {
+background-color: var(--accent-txt-theme);
+color: var(--third-txt-theme);
+cursor: pointer;
+}
+
+.box {
+    background:var(--main-bg-cl)
+}
+
+.portfolio-link {
+    text-decoration: none;
+}
+
+.box-title {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.11;
+    /* identical to box height, or 200% */
+    letter-spacing: 0.06em;
+    
+    color:var(--primary-txt-theme)
+}
+
+.box-txt {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+    /* identical to box height, or 188% */
+    letter-spacing: 0.03em;
+    
+    color: var(--secondary-txt-theme)
+}
